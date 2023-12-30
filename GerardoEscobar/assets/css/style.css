@@ -1345,8 +1345,23 @@ a:hover {
 @media (min-width: 768px) {
   .blog-wrapper .article-title {
     font-size: 1.9rem;
+    color: #000000
   }
 }
+
+@media (min-width: 250px) {
+  .article-title {
+    color: #000000
+  }
+}
+
+
+@media (min-width: 250px) {
+  .article-content p {
+    color: #000000
+  }
+}
+
 
 .blog-wrapper .post-meta {
   margin: 1rem 0;
